@@ -1,13 +1,10 @@
 let myAnimals = ["dog", "cat", "horse", "meerkat"]
 
-let newAnimal = prompt("Enter an animal to add to the list:")
-
-let newAnimalLowerCase = newAnimal.toLowerCase()
-
-let myAnimalsReverse = myAnimals.reverse()
-
-for (i=0, i<1, i++){
-myAnimals.push(newAnimalLowerCase)
-console.log(`The last animal is a/an ${myAnimalsReverse[0]}`)
+for (i=0; i<2; i++){
+  let newAnimal = prompt("Enter an animal to add to the list:")
+  let newAnimalLowerCase = newAnimal.toLowerCase()
+  myAnimals.push(newAnimalLowerCase)
+  let myAnimalsReverse = myAnimals.reverse()
+  console.log(`The last animal is a/an ${myAnimalsReverse[0]}`)
 }
   
