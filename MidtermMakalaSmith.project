@@ -41,6 +41,14 @@
             "calculate",
             "calculate.json"
           ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "animalsEC",
+            "animalsEC.json"
+          ]
         }
       ],
       "configxml": null,
