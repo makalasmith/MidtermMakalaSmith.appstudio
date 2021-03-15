@@ -1,5 +1,5 @@
 
-
+/*
 let bucketList = []
 
 let doneWithList = false
@@ -21,3 +21,5 @@ while (bucketList.length !== count){
   console.log(`${name}`)
   count++
 }
+
+*/
